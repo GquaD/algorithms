@@ -17,7 +17,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{10, 3, 7, 5, 9};
+        int[] arr = new int[]{6, 3, 0, 5, 1};
         System.out.println("Before: " + Arrays.toString(arr));
         bubbleSort(arr);
         System.out.println("After: " + Arrays.toString(arr));
